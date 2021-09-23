@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;700&display=swap');
+* {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.container {
+  position: relative;
+  width: 450px;
+  height: 650px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+
+.brand-title {
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #f4e75bcf;
+  letter-spacing: 1px;
+  text-shadow: -0rem 0.1rem rgb(155, 120, 8);
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+  padding: 30px 0px 0px 0px;
+  
+}
+
+label, input, button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+
+}
+
+label {
+  margin-bottom: 4px;
+  padding: 10px 0px 0px .9rem;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button {
+  margin-top: 50px;
+  background: #f8e950cf;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  padding: 20px 10px 35px 0px;
+}
+
+button:hover {
+  box-shadow: none;
+}
